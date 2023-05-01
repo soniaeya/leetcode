@@ -9,7 +9,6 @@ public class ReverseString {
             s[s.length-1-i] = temp;
         }
         System.gc();
-
         System.out.println(Arrays.toString(s));
     }
     public static void main(String[] args) {
